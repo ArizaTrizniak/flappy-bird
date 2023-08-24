@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy&subset=latin,cyrillic);
+
+.GameOverBack {
+    position: absolute;
+    z-index: 50;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.GameOverBlock {
+    z-index: 100;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 10%;
+}
+
+.RestartButton {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: solid 1px darkgreen;
+    color: white;
+    background: linear-gradient(#64e67a, #1b601c);
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: medium;
+}

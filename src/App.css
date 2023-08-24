@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+
+.Field {
+    border: dodgerblue 2px solid;
+    margin: 20px;
+    position: absolute;
+    top: 30px;
+    height: 100%;
+    width: 100%;
+}
